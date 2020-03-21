@@ -2846,7 +2846,7 @@ def ReadStataDct(dct_file, **options):
                     double=float, numeric=float)
 
     var_info = []
-    print(os.getcwd()
+    print(os.getcwd())
     with open(dct_file, **options) as f:
         for line in f:
             match = re.search( r'_column\(([^)]*)\)', line)
