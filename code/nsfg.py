@@ -14,8 +14,8 @@ import thinkstats2
 from collections import defaultdict
 
 
-def ReadFemResp(dct_file='2002FemResp.dct',
-                dat_file='2002FemResp.dat.gz',
+def ReadFemResp(dct_file=r"C:\Users\Amode\Dev\ThinkStats\code\2002FemResp.dct",
+                dat_file=r'C:\Users\Amode\Dev\ThinkStats\code\2002FemResp.dat.gz',
                 nrows=None):
     """Reads the NSFG respondent data.
 
